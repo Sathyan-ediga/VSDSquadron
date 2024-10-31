@@ -44,6 +44,7 @@ Compile the program using RISCV GCC.
  ```
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.0 sum1ton.c
  ```
+![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/4.png)
 
 
  
