@@ -39,12 +39,18 @@ The compiler optimizes code based on the information it has about the program. W
 
 Enabling optimization flags prompts the compiler to improve code performance and/or reduce code size, though this may increase compilation time and impact debugging capabilities.
 
-Compile the program using RISCV GCC.
+The command used to compile using the RISC-V compiler is it creates the objdump file
 
  ```
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.0 sum1ton.c
  ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/4.png)
 
+3. Running the C code using RISC-V compiler and then generating the assembly code using objdump
+   
+Use the command riscv64-unknown-elf-objdump -d sum1ton.o will generate the assembly code
 
+ ```
+riscv64-unknown-elf-objdump -d sum1ton.o 
+ ```
  
