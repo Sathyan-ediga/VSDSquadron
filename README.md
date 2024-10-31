@@ -25,4 +25,12 @@ To get the output.
  ./a.out
  ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/2.png)
+
+2. To comppile and dissemble the program using RISCV GCC Compiler
+
+To see the program.
+
+ ```
+cat sum1ton.c
+ ```
  
