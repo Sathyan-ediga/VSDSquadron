@@ -33,4 +33,5 @@ To see the program.
  ```
 cat sum1ton.c
  ```
+![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/3.png)
  
