@@ -5,9 +5,11 @@ To complete the task, start by creating a GitHub repository to store your work.C
 Install leafpad GTK and text editor.
 <l></l>
 
-## Code
 ```
 sudo apt install leafpad
 ```
-
+Create a new C file using leafpad editor.
+```
+leafpad sum1ton.c
+```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/b21ab2a365d4fd93cbd357a12811d7458fc3f949/1.png)
