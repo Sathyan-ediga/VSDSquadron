@@ -14,7 +14,7 @@ leafpad sum1ton.c
 ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/b21ab2a365d4fd93cbd357a12811d7458fc3f949/1.png)
 <h1>Writing C code, its compilation and output</h1>
-<h2>1) write a C program  to count the numbers from 1 to n using leafpad editor  and write c code,</h2>
+<h2>1) write a C program  to count the numbers from 1 to n using leafpad editor</h2>
 
 ```
  leafpad sum1ton.c
@@ -26,7 +26,7 @@ To get the output.
  ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/2.png)
 
-2) To comppile and dissemble the program using RISCV GCC Compiler
+<h2>2) To comppile and dissemble the program using RISCV GCC Compiler</h2>
 
 To see the program.
 
@@ -46,7 +46,7 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.0 sum1ton.c
  ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/4.png)
 
-3) Running the C code using RISC-V compiler and then generating the assembly code using objdump
+<h2>3) Running the C code using RISC-V compiler and then generating the assembly code using objdump</h2>
    
 Use the command riscv64-unknown-elf-objdump -d sum1ton.o will generate the assembly code
 
