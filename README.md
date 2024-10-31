@@ -34,4 +34,16 @@ To see the program.
 cat sum1ton.c
  ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/main/3.png)
+
+The compiler optimizes code based on the information it has about the program. When multiple files are compiled together into a single output file, the compiler can leverage information from all files to enhance optimization for each one.
+
+Enabling optimization flags prompts the compiler to improve code performance and/or reduce code size, though this may increase compilation time and impact debugging capabilities.
+
+Compile the program using RISCV GCC.
+
+ ```
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.0 sum1ton.c
+ ```
+
+
  
