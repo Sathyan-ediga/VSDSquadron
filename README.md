@@ -14,7 +14,7 @@ leafpad sum1ton.c
 ```
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/b21ab2a365d4fd93cbd357a12811d7458fc3f949/1.png)
 <h1>Writing C code, its compilation and output</h1>
-1) write a C program  to count the numbers from 1 to n using leafpad editor  and write c code,
+<h2>1) write a C program  to count the numbers from 1 to n using leafpad editor  and write c code,</h2>
 
 ```
  leafpad sum1ton.c
