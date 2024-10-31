@@ -6,8 +6,8 @@ Install leafpad GTK and text editor.
 <l></l>
 
 ## Code
-'''
+```
 sudo apt install leafpad
-'''
+```
 
 ![Image Alt](https://github.com/Sathyan-ediga/VSDSquadron/blob/b21ab2a365d4fd93cbd357a12811d7458fc3f949/1.png)
